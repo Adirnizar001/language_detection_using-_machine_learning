@@ -1,0 +1,80 @@
+/* General styles */
+body {
+    text-align: left;
+    margin: 20px;
+    background-color: white;
+    color: black;
+}
+
+.center {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+form {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+#result {
+    text-align: left;
+    width: 80%;
+    word-wrap: break-word;
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+}
+
+.theme-toggle-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+#theme-toggle {
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+textarea.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#result.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+input[type="submit"].dark {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+.feedback.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.feedback.dark form label {
+    color: #ffffff;
+}

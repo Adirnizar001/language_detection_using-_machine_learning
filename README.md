@@ -1,0 +1,19 @@
+# Language Detection Model
+
+A simple  web application, which classifies user input into english, german or spanish.
+
+### Run the app locally
+
+    python run.py
+
+### Build the Docker Image
+
+    docker build -t-lang-detection:latest .
+
+### Run the Docker Container
+
+    docker run -p 5000:5000 -lang-detection:latest
+
+### Run with Docker-Compose
+
+    docker compose up
