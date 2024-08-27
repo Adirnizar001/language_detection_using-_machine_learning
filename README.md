@@ -17,3 +17,4 @@ A simple  web application, which classifies user input into english, german or s
 ### Run with Docker-Compose
 
     docker compose up
+also create a environment 
